@@ -27,9 +27,9 @@ Commands to use
 -----------------
 If the code is present in blink.c, run the following commands :
 
-1. avr-gcc -mmcu=atmega32 -Wall -Os -o blink.elf blink.c 
-2. avr-objcopy -j .text -j .data -O ihex blink.elf blink.hex
-3. sudo avrdude -p m32 -c usbtiny -P usb -U flash:w:blink.hex -v
+	avr-gcc -mmcu=atmega32 -Wall -Os -o blink.elf blink.c 
+	avr-objcopy -j .text -j .data -O ihex blink.elf blink.hex
+	sudo avrdude -p m32 -c usbtiny -P usb -U flash:w:blink.hex -v
 
 **********************************************************************************************
 
