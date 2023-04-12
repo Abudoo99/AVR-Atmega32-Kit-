@@ -23,7 +23,7 @@ Preparing Packages
 6. Create symlink for the libread.so.7
 	sudo ln -sf /lib/x86_64-linux-gnu/libread.so.7 /lib/x86_64-linux-gnu/libread.so.6
 
-Commands to use
+Commands to build and flash code
 -----------------
 If the code is present in blink.c, run the following commands :
 
