@@ -15,12 +15,14 @@ Hardware Setup
 
 Preparing Packages
 --------------------
-1. sudo apt update
-2. sudo apt-get install gcc-avr 
-3. sudo apt-get install avr-libc
-4. sudo cp avrdude /usr/bin/
-5. sudo cp avrdude.conf /etc/
-6. Create symlink for the libread.so.7
+ 	sudo apt update
+ 	sudo apt-get install gcc-avr 
+ 	sudo apt-get install avr-libc
+ 	sudo cp avrdude /usr/bin/
+ 	sudo cp avrdude.conf /etc/
+	
+Create symlink for the libread.so.7
+
 	sudo ln -sf /lib/x86_64-linux-gnu/libread.so.7 /lib/x86_64-linux-gnu/libread.so.6
 
 Commands to build and flash code
